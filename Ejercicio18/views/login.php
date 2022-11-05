@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-</head>
+</hd>
   <body>
     <h1>Formulario</h1>
     <form action="?method=confirmacion" method="post">
