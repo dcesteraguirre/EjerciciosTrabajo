@@ -16,11 +16,7 @@ public function run()
     $this->$method();
 }
 
-//con esta funcion mostramos el index de views
-public function index()
-{
-  include('views/index.php');
-}
+
   public function fibonacci()
   {
     include('views/cabecera.html');
