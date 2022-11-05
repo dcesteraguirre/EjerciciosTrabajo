@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ponemos nombre al formulario, declaramos la ruta absoluta donde se enviaran los
+    datos del formulario y el metodo POST que envía los datos al cuerpo. -->
+    <form name="miformu" action="Ejercicio15.php" method="post">
+        <p>
+            <!-- lablel para señalar que debemos introducir en el -->
+            <label for="nombre">nombre 1:</label>
+            <!-- declaramos el tipo, el nombre y el id del datos que enviarmeos -->
+            <input type="text" name="nombre[]" id="nombre" >
+
+        </p>
+        <p>
+            <!-- lablel para señalar que debemos introducir en el -->
+            <label for="nombre">nombre 2:</label>
+            <!-- declaramos el tipo, el nombre y el id del datos que enviarmeos -->
+            <input type="text" name="nombre[]" id="nombre" >
+
+        </p>
+        <p>
+            <!-- lablel para señalar que debemos introducir en el -->
+            <label for="nombre">nombre 3:</label>
+            <!-- declaramos el tipo, el nombre y el id del datos que enviarmeos -->
+            <input type="text" name="nombre[]" id="nombre" >
+
+        </p>
+        <!-- enviamos los datos a traves del submit -->
+        <input type="submit" name="envio" value="Enviar">
+        
+    </form>
+    
+</body>
+</html>

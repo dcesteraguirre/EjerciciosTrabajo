@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Libro</h1>
+    <!-- Ponemos nombre al formulario, declaramos la ruta absoluta donde se enviaran los
+    datos del formulario y el metodo GET que envía los datos a la cabcera. -->
+    <form name="Formulario" action="Ejercicio11.php" method="GET">
+        <p>
+            <!-- lablel para señalar que debemos introducir en el -->
+            <label for="nombre">Título :</label>
+            <!-- declaramos el tipo, el nombre y el id del datos que enviarmeos -->
+            <input type="text" name="titulo" id="titulo" >
+
+        </p>
+        <p>
+            <label for="nombre">Autor :</label>
+            <input type="text" name="autor" id="autor" >
+
+        </p>
+        <p>
+            <label for="nombre">Editorial :</label>
+            <input type="text" name="editorial" id="editorial" >
+
+        </p>
+        <p>
+            <label for="nombre">Páginas :</label>
+            <input type="number" name="paginas" id="paginas" >
+
+        </p>
+        <!-- enviamos los datos a traves del submit -->
+        <input type="submit" name="envio" value="Enviar">
+
+    </form>
+</body>
+</html>
