@@ -15,6 +15,6 @@
       <input type="text" name="contrasegna">
       <br>
       <input type="submit" value="login">
-    </form>
-  </body>
+    </fom>
+  </ody>
 </html>
